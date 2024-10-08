@@ -1,0 +1,73 @@
+.nav {
+    text-indent: 50px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(244, 105, 105);
+    font-weight: 700;
+    font-size: larger;
+    padding-right: 10px;
+    line-height: 80px;
+}
+
+.nav a:hover {
+    color: rgb(223, 7, 64);
+}
+
+.picture {
+    background-color:rgb(255, 249, 249);
+}
+
+.dialog1,.dialog2,.dialog3,.dialog4,.dialog5,.function,.dialog6,.dialog7 {
+    height: 320px;
+    background-color:rgb(255, 249, 249);
+}
+
+.dialog1 img {
+    padding-top: 100px;
+    padding-left: 670px;
+    height: 85px;
+}
+
+.dialog2 img {
+    padding-left: 80px;
+    height: 100px;
+}
+
+.dialog3 img {
+    padding-left: 850px;
+    height: 105px;
+}
+
+.dialog4 img {
+    padding-left: 80px;
+    height: 110px;
+}
+
+.dialog5 img {
+    padding-left: 570px;
+    height: 105px;
+}
+
+.function img {
+    padding-left: 230px;
+    height: 200px;;
+}
+
+.dialog6 img {
+    padding-top: 50px;
+    padding-left: 280px;
+    height: 100px;
+}
+
+.dialog7 img {
+    padding-left: 190px;
+    height: 100px;
+}
+
+.bottom img {
+    height: 130px;
+}

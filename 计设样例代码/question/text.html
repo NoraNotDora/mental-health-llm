@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>心灵剧场</title>
+    <style>
+        body {
+
+            background: url("./img/渐变背景.png");
+            background-size: cover; /* 或者使用contain */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .text-style-1 {
+            font-size: 24px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 42.56px;
+            color: rgba(94, 98, 130, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            width: 1485px;
+            height: 662px;
+            opacity: 1;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            background-color: white;
+            border-radius: 10px;
+
+        }
+
+        /* 第一行 start */
+        .part-1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 50px;
+            margin-left: 64px;
+            gap: 20px;
+
+        }
+
+        .profile {
+            width: 125px;
+            height: 125px;
+
+        }
+
+
+        .question {
+            margin-left: 40px;
+            font-size: 66.51px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 77.95px;
+            color: rgba(20, 24, 62, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        /* 第一行 end */
+
+        /* 第二行 start */
+        .part-2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 54px;
+            margin-left: 127px;
+            margin-right: 107px;
+            gap: 20px;
+        }
+
+        .input input {
+            width: 1251px;
+            height: 201px;
+            opacity: 1;
+            border-radius: 13.3px;
+            background: rgba(247, 247, 247, 1);
+            border: 0.8px solid rgba(229, 229, 229, 1);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        /* 第二行 end */
+
+        /* 第三行 start */
+        .part-3 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 54px;
+            margin-left: 127px;
+            margin-right: 107px;
+            gap: 20px;
+        }
+
+        .btn-1 {
+            width: 253px;
+            height: 84px;
+            opacity: 1;
+            border-radius: 13.3px;
+            background: rgba(255, 255, 255, 1);
+            border: 0.8px solid rgba(255, 240, 243, 1);
+            box-shadow: 0px 26.6px 17.29px rgba(0, 0, 0, 0.01), 0px 10.84px 8.67px rgba(0, 0, 0, 0.01), 0px 2.46px 4.19px rgba(0, 0, 0, 0);
+            font-size: 24px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 42.56px;
+            color: rgba(94, 98, 130, 1);
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .btn-2 {
+            width: 160px;
+            height: 84px;
+            opacity: 1;
+            border-radius: 13.3px;
+            background: rgba(227, 60, 100, 1);
+            border: 0.8px solid rgba(255, 240, 243, 1);
+            box-shadow: 0px 26.6px 17.29px rgba(0, 0, 0, 0.01), 0px 10.84px 8.67px rgba(0, 0, 0, 0.01), 0px 2.46px 4.19px rgba(0, 0, 0, 0);
+            font-size: 30px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 42.56px;
+            color: rgba(255, 255, 255, 1);
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .btn-1:hover {
+            background: rgba(94, 98, 130, 0.096);
+            color: rgba(94, 98, 130, 1);
+            cursor: pointer;
+        }
+
+        .btn-1:focus{
+            background: rgba(94, 98, 130, 0.096);
+        }
+
+        .btn-2:hover {
+            background: rgba(227, 60, 100, 1);
+            color: rgba(255, 240, 243, 1);
+            cursor: pointer;
+        }
+        
+        .nav {
+            text-indent: 50px;
+            height: 90px;
+            background-color: #fff;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: rgb(244, 105, 105);
+            font-weight: 700;
+            font-size: 19px;
+            padding-right: 9px;
+            padding-left: 1px;
+            line-height: 96px;
+        }
+
+        .nav a:hover {
+            color: rgb(223, 7, 64);
+        }
+
+    </style>
+</head>
+
+<body>
+        <div class="nav" >
+            <a href="http://127.0.0.4:5500/">HOME</a>
+            <a href="http://127.0.0.1:8000/">CHAT</a>
+            <a href="http://127.0.0.3:8001">TEST</a>
+            <a href="http://127.0.0.2:8080">TOOL</a>
+        </div>
+        <br><br>
+        <br><br>
+        <br><br>
+        <center>
+        <div class="main">
+            <div class="part-1">
+                <div class="profile">
+                    <img class="profile" src="./img/profile.png" alt="头像">
+                </div>
+                <div class="question"><span>你想要一个什么样的故事？</span></div>
+            </div>
+
+            <div class="part-2">
+                <div class="input">
+                    <input type="text" placeholder="请输入你的想法：">
+                </div>
+            </div>
+
+            <div class="part-3">
+                <span class="text-style-1">请选择测试类型：</span>
+                <button class="btn-1">抑郁量表</button>
+                <button class="btn-1">焦虑量表</button>
+                <button class="btn-1">MBTI量表</button>
+                <button class="btn-2" onclick="window.location.href='./q1.html'">确认</button>
+            </div>
+        </div>
+        </center>
+</body>
+
+</html>
